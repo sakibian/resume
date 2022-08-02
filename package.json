@@ -1,6 +1,6 @@
 {
     "title": "Resume",
-    "name": "resume",
+    "name": "Resume",
     "version": "7.0.5",
     "scripts": {
         "predeploy": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets",
