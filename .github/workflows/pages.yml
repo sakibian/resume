@@ -36,11 +36,6 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
 
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: dist
-
   # Deployment job
   deploy:
     environment:
